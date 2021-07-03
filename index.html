@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 2</title>
+    <style>
+        .container{
+            width: 986px;
+            margin: 0 auto;
+        }
+        table ,form{
+            margin-left: 30%;
+        }
+        table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    }
+    
+    </style>
+</head>
+<body>
+    <!-- Table start -->
+                        <!-- 
+                   <table> element to define a table
+                    <tr> element to define a table row
+                     <td> element to define a table data
+                    <th> element to define a table heading
+                     <caption> element to define a table caption
+                         -----css propaty------
+                    Use the CSS border property to define a border
+                    Use the CSS border-collapse property to collapse cell borders
+                    Use the CSS padding property to add padding to cells
+                    Use the CSS text-align property to align cell text
+                    Use the CSS border-spacing property to set the spacing between cells
+                    Use the colspan attribute to make a cell span many columns
+                    Use the rowspan attribute to make a cell span many rows
+                    Use the id attribute to uniquely define one table -->
+
+   <div class="container">
+       <!--Defines a table -->
+    <table>
+        <!-- <thead>,Groups the header content in a table -->
+        <thead>
+            <!-- <tr>Defines a row in a table -->
+            <tr>
+                <!--th ,Defines a header cell in a table -->
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobail</th>
+            </tr>
+        </thead>
+        <!-- <tbody>,Groups the body content in a table -->
+        <tbody>
+             <!-- <tr>Defines a row in a table -->
+            <tr>
+                <!-- <td>, Defines a cell in a table -->
+                <td>Tariq Jamil</td>
+                <td>tariqjamil474@gmail.com</td>
+                <td>01817466012</td>
+            </tr>
+            <tr>
+                <td>Fahim </td>
+                <td>fahim@gmail.com</td>
+                <td>01817466012</td>
+            </tr>
+            <tr>
+                <td>Jamil</td>
+                <td>jamil@gmail.com</td>
+                <td>01817466012</td>
+            </tr>
+            <tr>
+                <td>Farhan </td>
+                <td>Farhan@gmail.com</td>
+                <td>01817466012</td>
+            </tr>
+        </tbody>
+    </table>
+ 
+    <!-- Table end -->
+    <!-- input tag start -->
+    <!-- The <input> tag specifies an input field where the user can enter data. -->
+                    <!-- 
+                        <input type="button">
+                        <input type="checkbox">
+                        <input type="color">
+                        <input type="date">
+                        <input type="datetime-local">
+                        <input type="email">
+                        <input type="file">
+                        <input type="hidden">
+                        <input type="image">
+                        <input type="month">
+                        <input type="number">
+                        <input type="password">
+                        <input type="radio">
+                        <input type="range">
+                        <input type="reset">
+                        <input type="search">
+                        <input type="submit">
+                        <input type="tel">
+                        <input type="text"> (default value)
+                        <input type="time">
+                        <input type="url">
+                        <input type="week">
+                     -->
+                     <br><br>
+    <form action="">
+        <div>
+            <label for="firstName">First Name</label>
+        <input type="firstName" name="firstName" placeholder="First Name">
+        <br> <br>
+        </div>
+       <div>
+        <label for="lastName">Last Name</label>
+        <input type="Last Name"  name="lastName" placeholder="First Name">
+        <br> <br>
+       </div>
+        <div>
+            <label for="email">Email</label>
+        <input type="email"  name="email" placeholder="@gmail.com">
+        <br> <br>
+        </div>
+        <div>
+            <label for="message">Message Box</label>
+            <textarea name="message" ></textarea>
+            <br> <br>
+        </div>
+       <div>
+        <label for="age">Age</label>
+        <input type="number" value="20">
+        <br><br>
+       </div>
+       <div>
+        <label for="birthday">Birthday</label>
+        <input type="date">
+        <br><br>
+       </div>
+        <div>
+            <label for="Gender">Gender</label>
+        <select name="Gender" id="">
+            <option value="Male">Male</option>
+            <option value="famele">famele</option>
+            <option value="others">others</option>
+        </select>
+        </div>
+        <br><br>
+       <div>
+        <input type="submit" name="submit" value="submit">
+    </form>
+       </div>
+</div>
+    <!-- input tag end -->
+ 
+</body>
+</html>
